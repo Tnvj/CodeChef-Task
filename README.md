@@ -12,6 +12,8 @@ create table emp(
     -> name varchar(20),
     -> dept varchar(20),
     -> salary int);
+    
+    
 Insert some values
 for eg:
 insert into emp values(2,'Aditi','HR','120382000');
