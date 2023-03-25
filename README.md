@@ -15,5 +15,7 @@ create table emp(
     
     
 Insert some values
+
 for eg:
+
 insert into emp values(2,'Aditi','HR','120382000');
