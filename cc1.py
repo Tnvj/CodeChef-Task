@@ -1,5 +1,5 @@
 import mysql.connector as mycon
-cn = mycon.connect(host='127.0.0.1',user='root',password="s7PeCt1.!",database="company")
+cn = mycon.connect(host='127.0.0.1',user='root',password="user",database="company")
 cur = cn.cursor()
 def showAll():
     
