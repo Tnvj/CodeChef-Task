@@ -122,17 +122,17 @@ def generateSlip():
         hra = s * 12/100
         da = s * 15/100
         it = s * 0.05
-        nps = (s+hra)*10/100
-        gross = s +hra+da+nps
-        ded = it + nps
+      
+        gross = s +hra+da
+        ded = it 
         net = gross - ded
-        tded=it + nps
+        tded=it 
         print("%19s"%"EARNING","%27s"%"DEDUCTION")
         print("-------------------------------------------------")
         print("%20s"%"Basic  :"+str(s),"%22s"%"INC. TAX :"+str(it))
-        print("%20s"%"HRA    :"+str(hra),"%20s"%"NPS    :"+str(nps))
+        print("%20s"%"HRA    :"+str(hra)))
         print("%20s"%"DA     :"+str(da))
-        print("%20s"%"NPS    :"+str(nps))
+      
         print("-"*50)
         print("     GROSS :",gross," NET SALARY :",net,"  TOTAL DED :",tded)
     print("-"*50)
