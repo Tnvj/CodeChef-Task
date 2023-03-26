@@ -124,8 +124,8 @@ def generateSlip():
         it = s * 0.05
       
         gross = s +hra+da
-        ded = it 
-        net = gross - ded
+      
+        net = gross - it
         tded=it 
         print("%19s"%"EARNING","%27s"%"DEDUCTION")
         print("-------------------------------------------------")
