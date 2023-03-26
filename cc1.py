@@ -121,7 +121,7 @@ def generateSlip():
         s = int(results[3])
         hra = s * 12/100
         da = s * 15/100
-        it = 1000
+        it = s * 0.05
         nps = (s+hra)*10/100
         gross = s +hra+da+nps
         ded = it + nps
