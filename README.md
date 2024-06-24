@@ -66,12 +66,3 @@ Choose an option by entering the corresponding number and follow the prompts to 
 - Ensure proper input validation to prevent SQL injection and other security vulnerabilities.
   
 - Customize and extend functionalities as needed for your specific use case (e.g., additional validation, reporting features, etc.).
-
-## Authors
-
-- Replace this section with your information if distributing or sharing modified versions of this script.
-
-## License
-
-- This script is provided under [MIT License](https://opensource.org/licenses/MIT) unless stated otherwise.
-
