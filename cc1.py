@@ -30,7 +30,6 @@ def addEmp():
     query="insert into emp values("+str(eno)+",'"+en+"','"+dp+"',"+str(sl)+")"
     cur.execute(query)
     cn.commit()
-    #print(query)
     print("\n ## RECORD ADDED SUCCESSFULLY!")
 def searchEmp():
     global cn,cur
